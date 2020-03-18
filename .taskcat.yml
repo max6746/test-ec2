@@ -1,0 +1,12 @@
+project:
+    name: taskcat-test-ec2
+    regions:
+        - us-east-1
+        - us-east-2
+tests:
+    test-ec2:
+        template: ./ec2/ec2.yaml
+        parameters:
+            InstanceType: 't2.micro'
+            KeyName: 'mayank-test'
+            SSHLocation: '49.205.217.211/32'
