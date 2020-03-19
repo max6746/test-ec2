@@ -1,0 +1,5 @@
+#!/bin/bash
+source ../myenv/bin/activate
+taskcat test run
+cp ./taskcat_outputs/* /var/www/html/
+sudo service httpd restart
