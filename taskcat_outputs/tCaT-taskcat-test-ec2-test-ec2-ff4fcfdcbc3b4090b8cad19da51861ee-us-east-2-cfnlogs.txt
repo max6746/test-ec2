@@ -1,0 +1,19 @@
+-----------------------------------------------------------------------------
+Region: us-east-2
+StackName: tCaT-taskcat-test-ec2-test-ec2-ff4fcfdcbc3b4090b8cad19da51861ee
+*****************************************************************************
+ResourceStatusReason:  
+Parameter validation failed: parameter value mayank-test for parameter name KeyName
+does not exist
+*****************************************************************************
+*****************************************************************************
+Events:  
+TimeStamp                         ResourceStatus      ResourceType                LogicalResourceId                                                ResourceStatusReason
+--------------------------------  ------------------  --------------------------  ---------------------------------------------------------------  --------------------------------------------------------------------------------------------------
+2020-03-19 11:39:29.743000+00:00  CREATE_FAILED       AWS::CloudFormation::Stack  tCaT-taskcat-test-ec2-test-ec2-ff4fcfdcbc3b4090b8cad19da51861ee  Parameter validation failed: parameter value mayank-test for parameter name KeyName does not exist
+2020-03-19 11:39:28.241000+00:00  CREATE_IN_PROGRESS  AWS::CloudFormation::Stack  tCaT-taskcat-test-ec2-test-ec2-ff4fcfdcbc3b4090b8cad19da51861ee  User Initiated
+*****************************************************************************
+-----------------------------------------------------------------------------
+Tested on: Thursday, 19. March 2020 11:40AM
+-----------------------------------------------------------------------------
+

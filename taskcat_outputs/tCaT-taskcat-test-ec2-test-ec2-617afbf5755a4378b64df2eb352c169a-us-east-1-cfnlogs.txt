@@ -1,0 +1,24 @@
+-----------------------------------------------------------------------------
+Region: us-east-1
+StackName: tCaT-taskcat-test-ec2-test-ec2-617afbf5755a4378b64df2eb352c169a
+*****************************************************************************
+ResourceStatusReason:  
+Stack launch was successful
+*****************************************************************************
+*****************************************************************************
+Events:  
+TimeStamp                         ResourceStatus      ResourceType                LogicalResourceId                                                ResourceStatusReason
+--------------------------------  ------------------  --------------------------  ---------------------------------------------------------------  ---------------------------
+2020-03-19 11:35:25.625000+00:00  CREATE_COMPLETE     AWS::CloudFormation::Stack  tCaT-taskcat-test-ec2-test-ec2-617afbf5755a4378b64df2eb352c169a
+2020-03-19 11:35:23.591000+00:00  CREATE_COMPLETE     AWS::EC2::Instance          EC2Instance
+2020-03-19 11:34:47.914000+00:00  CREATE_IN_PROGRESS  AWS::EC2::Instance          EC2Instance                                                      Resource creation Initiated
+2020-03-19 11:34:46.330000+00:00  CREATE_IN_PROGRESS  AWS::EC2::Instance          EC2Instance
+2020-03-19 11:34:44.345000+00:00  CREATE_COMPLETE     AWS::EC2::SecurityGroup     InstanceSecurityGroup
+2020-03-19 11:34:43.516000+00:00  CREATE_IN_PROGRESS  AWS::EC2::SecurityGroup     InstanceSecurityGroup                                            Resource creation Initiated
+2020-03-19 11:34:38.615000+00:00  CREATE_IN_PROGRESS  AWS::EC2::SecurityGroup     InstanceSecurityGroup
+2020-03-19 11:34:34.599000+00:00  CREATE_IN_PROGRESS  AWS::CloudFormation::Stack  tCaT-taskcat-test-ec2-test-ec2-617afbf5755a4378b64df2eb352c169a  User Initiated
+*****************************************************************************
+-----------------------------------------------------------------------------
+Tested on: Thursday, 19. March 2020 11:35AM
+-----------------------------------------------------------------------------
+
